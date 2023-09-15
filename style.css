@@ -1,0 +1,114 @@
+body{
+    margin: 0px;
+    font-family: arial;
+    background-color: #f0f0f0;
+}
+.header{
+    max-width: 100%;
+    min-height: 200px;
+    margin: auto;
+    background-color: #F36829;
+}
+.logo{
+    width: 120px;
+    height: 100px;
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.ld{
+    margin-left: 10px;
+    margin-top: 55px;
+    font-weight: bold;
+    font-size: 20px;
+    /* float: left; */
+}
+.ldh{
+    margin-left: 10px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 20px;
+    /* float: left; */
+}
+.ldimg{
+    height: 150px;
+    max-width: 100%;
+    margin: auto;
+}
+.right{
+    float: right;
+    padding-right: 40px;
+    font-weight: bold;
+}
+.right li{
+    list-style: none;
+    float: left;
+    padding-top: 80px;
+    padding-right: 20px;
+}
+.about{
+    padding: 40px;
+    width: 80%;
+}
+.triangle-right {
+	width: 0;
+	height: 0;
+	border-top: 5px solid transparent;
+	border-left: 10px solid;
+	border-bottom: 5px solid transparent;
+}
+.map{
+    float: left;
+    height: 320px;
+    width: 30%;
+    margin-left: 40px;
+    overflow-x: scroll;
+}
+.image{
+    float: left;
+    height: 320px;
+    width: 30%;
+    margin-left: 40px;
+}
+.image img{
+    height: 280px;
+}
+.image div{
+    height: 30px;
+    width: 85%;
+    border: solid #F36829;
+    background-color: #F36829;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.image img a:hover{
+    background-color: #FBDB01;
+}
+.news{
+    height: 600px;
+    width: 95%;
+    background-color:lightgray;
+    padding-top:20px;
+    clear:both;
+    overflow-x: scroll;
+}
+.news h1{
+    margin-left: 20px;
+}
+.file{
+    margin: 20px;
+}
+.garden{
+    margin: 20px;
+    background-color: white;
+    width: 95%;
+}
+.garden h3{
+    padding: 25px;
+}
+.garden div img{
+    padding-left: 20px;
+}
